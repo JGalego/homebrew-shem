@@ -1,24 +1,24 @@
 class Shem < Formula
   desc "Run containers and VMs inside a model's weights"
   homepage "https://github.com/JGalego/shem"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/JGalego/shem/releases/download/v0.1.0/shem-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d7d8f8f0561ad8c93285377a8f9215af6c1b8f071170c4f71359cfe478954a69"
+      url "https://github.com/JGalego/shem/releases/download/v0.2.0/shem-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6fd4d45efa2d5b9f9777b47f1eca132546decb2265669f26e206b7c1be6df4e1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/JGalego/shem/releases/download/v0.1.0/shem-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ceff2e62c0b1e855bf75bd784fa60845a9b889f0914cf23567adf788b51396b4"
+      url "https://github.com/JGalego/shem/releases/download/v0.2.0/shem-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fc51ab799b285077cfbb4dead35e42a0dcd3d344ef57a6fcd12f0ac74c7d0444"
     end
     on_arm do
-      url "https://github.com/JGalego/shem/releases/download/v0.1.0/shem-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e9a906c524e74d4ff7eadab2de962ad8f8736d817482c6f3c15f5066f73d552d"
+      url "https://github.com/JGalego/shem/releases/download/v0.2.0/shem-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4cbd67379e1f44b55ac2d76aac735cda7ab8c947e7373209e00e94451a112f9b"
     end
   end
 
